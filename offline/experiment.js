@@ -7,8 +7,6 @@ Universite Claude Bernard Lyon 1
 Github:https://github.com/vekteo/Wisconsin_JSPsych
 */
 
-function expStart(subject, session) {
-
     /*************** VARIABLES ***************/
 
     let timeline = [];
