@@ -54,22 +54,11 @@ var level_sequence = nback_practice_sequence.concat(nback_sequence);
   var welcome = {
       type: 'survey-text',
       questions: [
-        {prompt: "Please enter your Prolific ID", name: 'prolificID', required:true}
+        {prompt: "Please enter your Student ID", name: 'studentID', required:true}
       ],
       preamble: "<font size = '15' color='#002080'><b>Welcome to the experiment!</b></font><br><br> This experiment will run for about " + eta + " minutes. Your goal will be " + goal,
       button_label: "Login",
     };
-
-
-// Demographics
-var demographics = {
-  type: 'survey-demographics',
-  preamble: "<font size = '15' color='#002080'>Basic Information</font>",
-  questions: [
-    {prompt: "Sex:", name: 'Sex', options: ["Male", "Female", "Non binary" ,"Prefer not to say"], required:true},
-    {prompt: "Do you speak english fluently?:", name: 'english', options: ["Yes", "No"], required:true}
-    ]
-};
 
 
 //**********************//
